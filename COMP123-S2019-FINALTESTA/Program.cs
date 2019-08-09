@@ -9,8 +9,8 @@ namespace COMP123_S2019_FINALTESTA
 {
     static class Program
     {
-        //this temporary
-        public static MasterForm masterForm;
+        public static HeroGenerator heroGenerator;
+
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
@@ -19,9 +19,9 @@ namespace COMP123_S2019_FINALTESTA
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            masterForm = new MasterForm();
+            heroGenerator = new HeroGenerator();
 
-            Application.Run(masterForm);
+            Application.Run(heroGenerator);
         }
     }
 }
